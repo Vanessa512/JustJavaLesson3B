@@ -22,7 +22,6 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
     /**
      * Calculates the price of the order based on the current quantity.
      *
@@ -38,7 +37,6 @@ public class MainActivity extends ActionBarActivity {
         if (addChocolate){
             basePrice = basePrice + 2;
         }
-
         int price = quantity * basePrice;
         return price;
     }
